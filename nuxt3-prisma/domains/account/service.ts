@@ -2,6 +2,10 @@ import { Account } from "@prisma/client"
 import { db } from "../core/util/db"
 import bcrypt from "bcryptjs"
 
+export function fetchAccounts() {
+  return db.account.findMany()
+}
+
 export function fetchAccountById(id: number) {
   return db.account.findUnique({ where: { id } })
 }
