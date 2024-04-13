@@ -15,7 +15,7 @@
     "pug": "3.0.2",
     "tsx": "3.8.0"
   },
-  "packageManager": "pnpm@7.8.0",
+  "packageManager": "pnpm@8.15.7",
   "dependencies": {
     "@prisma/client": "4.1.1",
     "bcryptjs": "2.4.3"
