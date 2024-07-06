@@ -10,7 +10,7 @@
   "devDependencies": {
     "@types/bcryptjs": "2.4.2",
     "nuxt": "3.0.0-rc.6",
-    "nuxt-windicss": "2.5.0",
+    "nuxt-windicss": "3.0.1",
     "prisma": "4.1.1",
     "pug": "3.0.2",
     "tsx": "3.8.0"
